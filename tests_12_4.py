@@ -9,6 +9,7 @@ class RunnerTest:
         except:
             logging.warning(f"Неверная скорость для Runner")
 
+    @staticmethod
     def test_run():
         try:
             runner = Runner(True, speed=10)
