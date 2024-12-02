@@ -18,5 +18,5 @@ class RunnerTest:
             logging.warning(f"Неверный тип данных для объекта Runner")
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO, filemode='w', filename='runner_tests.log', encoding='utf-8'
+    logging.basicConfig(level=logging.INFO, filemode='w', filename='runner_tests.log', encoding='utf-8',
                         format='%(asctime)s | %(levename)s | %(massage)s')
